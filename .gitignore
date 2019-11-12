@@ -22,7 +22,7 @@ yarn-error.log*
 
 # deploy to production, ignore folders
 /public
-/src
+src
 babel.config.js
 LICENSE
 package-lock.json
