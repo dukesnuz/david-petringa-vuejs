@@ -1,8 +1,10 @@
 <template>
   <footer class="footer">
     <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>
+      <ul>
+      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/about">About</router-link></li>
+      </ul>
     </div>
   </footer>
 </template>
@@ -14,6 +16,9 @@ export default {
 </script>
 
 <style scoped>
+ul {
+  list-style-type: none;
+}
 .footer {
   background-color: aliceblue;
   padding-bottom: 250px;
