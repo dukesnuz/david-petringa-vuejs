@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-/dist
+#/dist
 
 # local env files
 .env.local
@@ -19,3 +19,12 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+# deploy to production, ignore folders
+/public
+/src
+babel.config.js
+LICENSE
+package-lock.json
+package.json
+README.md
