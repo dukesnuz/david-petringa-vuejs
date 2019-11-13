@@ -70,8 +70,9 @@
           will be in the production branch.
         <li>
           Next lets pull the dist folder into  <a href="https://m.do.co/c/3ec7cdf44173" target="blank">Digital Ocean</a>. 
-          ssh or login to your droplet. Cd to your html folder.
-          cd /var/www/html/. Create an empty folder called "myvuejsapp". Then cd into this new folder.
+          ssh or login to your droplet. Cd to your html folder.<br>
+          <code>cd /var/www/html/</code>
+          <br>Create an empty folder called "myvuejsapp". Then cd into this new folder.
         </li>
 
         <li>
