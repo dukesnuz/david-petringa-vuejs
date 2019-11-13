@@ -23,7 +23,7 @@
           <a href="https://vuejs.org/v2/guide/installation.html#CLI" target="blank">Vue ui</a>. In your project you will notice 
           a new folder called dist</li>
 
-        <li>Now use git add, then git commit and push the new dist folder to the master branch on github</li>
+        <li>Now use git add, then git commit and push the new dist files to the master branch on github</li>
 
         <li>
           Check your repository on github and veryfy the dist folder was added. This folder most likely will be the first folder
