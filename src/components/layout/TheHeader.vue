@@ -4,7 +4,7 @@
     <div id="nav">
       <router-link to="/">Home</router-link>|
       <router-link to="/about">About</router-link>|
-      <router-link to="/blog">Blog</router-link>
+      <router-link to="/blog/Vuejs-Upload-To-Digital-Ocean-With-Github">Blog</router-link>
     </div>
   </header>
 </template>

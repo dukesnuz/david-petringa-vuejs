@@ -27,4 +27,11 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration:none;
+  color:#3366ff;
+}
 </style>
