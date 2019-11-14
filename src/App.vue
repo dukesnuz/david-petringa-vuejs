@@ -27,8 +27,15 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+ul, li {
+  margin: 0;
+  padding: 0;
+}
 ul {
   list-style-type: none;
+}
+li {
+  margin-bottom: 10px;
 }
 a {
   text-decoration:none;

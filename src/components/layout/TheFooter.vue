@@ -4,16 +4,24 @@
       <ul>
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/about">About</router-link></li>
-      <li><a v-bind:href ="''+url+''" target="blank">Contact</a></li>
+      <li><a v-bind:href ="''+url+''" target="blank">Say Hello</a></li>
       <li>View the code on <a href="https://github.com/dukesnuz/david-petringa-vuejs" target="blank">Github</a></li>
       </ul>
+    </div>
+    <div class="column_2">
+       <Duke/>
     </div>
   </footer>
 </template>
 
 <script>
+import Duke from "./ads/DukeCannon";
+
 export default {
   name: "Footer",
+    components: {
+    Duke
+  },
   data() {
     return {
      url: "http://www.dukesnuz.com/contact/dukesnuz/david/petringa/",
@@ -25,10 +33,15 @@ export default {
 <style scoped>
 .footer {
   background-color: aliceblue;
-  padding-bottom: 250px;
+  padding-bottom: 200px;
 }
 #nav {
   padding: 30px;
+  float: left;
+  text-align: left;
+}
+.column_2 {
+  float:left;
 }
 #nav a {
   font-weight: bold;
