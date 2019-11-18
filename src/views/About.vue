@@ -1,32 +1,114 @@
 <template>
   <div class="about">
-    <h2>Greetings</h2>
-    <p>
-      This is a simple website made with Vue.js. My goal in developing this site is to practice and become more
-      proficient with Vue.js. Vue.js is a frontend web develpment framework. I discovered and started using Vue.js
-      when I was learning the PHP Framework, Laravel. I coded <a href="https://david.dukesnuz.com/links/get-list" target="blank">this</a>
-      using Laravel. Vue.js was not used. I am using the following technologies for this site.
+    <section class="header">
+      <h2>Greetings</h2>
+      <p>
+        This is a simple website made with Vue.js. My goal in developing this site is to practice and become more
+        proficient with Vue.js. Vue.js is a frontend web develpment framework. I discovered and started using Vue.js
+        when I was learning the PHP Framework, Laravel. I coded
+        <a
+          href="https://david.dukesnuz.com/links/get-list"
+          target="blank"
+        >this</a>
+        using Laravel. Vue.js was not used.
       </p>
+    </section>
 
+    <section>
+      <h3>Where am I on the web</h3>
       <ul>
-        <li><a href="https://code.visualstudio.com/" target="blank">VS Code</a> for a text editor</li>
-        <li><a href="https://github.com/dukesnuz/david-petringa-vuejs" target="blank">Github</a> for version control</li>
-        <li><a href="https://m.do.co/c/3ec7cdf44173" target="blank">Digital Ocean</a> for hosting</li>
+        <li>
+          My
+          <a href="http://www.dukesnuz.com" target="blank">playground</a>
+        </li>
+        <li>
+          I coded these
+          <a
+            href="http://www.dukesnuz.com/websites/david/petringa/coded/"
+            target="blank"
+          >Websites</a>
+        </li>
+        <li>
+          My favorite
+          <a href="https://david.dukesnuz.com/links/get-list" target="blank">websites</a>
+        </li>
+
+        <li>
+          For version control I use
+          <a href="https://github.com/dukesnuz" target="blank">Github</a>
+        </li>
+        <li>
+          My favorite meetup is
+          <a
+            href="https://www.meetup.com/bostonphp/members/67794352/"
+            target="blank"
+          >Boston PHP</a>
+        </li>
+        <li>
+          Occasionally, I post on
+          <a href="https://twitter.com/Dukesnuz" target="blank">Twitter</a>
+        </li>
+        <li>
+          Just becasue, I am on
+          <a
+            href="https://www.linkedin.com/in/davidpetringa"
+            target="blank"
+          >Linkedin</a>
+        </li>
       </ul>
-   
+    </section>
+
+    <section>
+      <h3>I am using the following technologies for this site.</h3>
+      <ul>
+        <li>Designed and coded using An Acer Laptop and Windows 7</li>
+        <li>
+          <a href="https://code.visualstudio.com/" target="blank">VS Code</a> for a text editor
+        </li>
+        <li>
+          <a href="https://www.mozilla.org/en-US/firefox/new/" target="blank">Firefox</a> for development browser
+        </li>
+        <li>
+          <a href="https://github.com/dukesnuz/david-petringa-vuejs" target="blank">Github</a> for version control
+        </li>
+        <li>
+          <a href="https://m.do.co/c/3ec7cdf44173" target="blank">Digital Ocean</a> for hosting
+        </li>
+      </ul>
+    </section>
   </div>
 </template>
 
 <style scoped>
 .about {
   margin-bottom: 500px;
-  padding: 0 25% 0 25%;
+  padding: 0 5% 0 5%;
+}
+section {
+  background: aliceblue;
+}
+section h2,
+section h3 {
+  padding-top: 25px;
 }
 ul {
-  background:aliceblue;
   padding: 25px 0px;
-  width: 250px;
+  width: 90%;
   margin: auto;
-  margin-top:50px;
+  margin-top: 3px;
+}
+h2,
+h3 {
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 375px) {
+  ul {
+    width: 500px;
+  }
+  .about {
+    padding: 0 25% 0 25%;
+    font-size: 1.5em;
+  }
 }
 </style>
