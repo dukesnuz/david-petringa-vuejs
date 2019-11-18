@@ -61,7 +61,7 @@
     <section>
       <h3>I am using the following technologies for this site.</h3>
       <ul>
-        <li>Designed and coded using An Acer Laptop and Windows 7</li>
+        <li>Designed and coded using An Acer Laptop running Windows 7.</li>
         <li>
           <a href="https://code.visualstudio.com/" target="blank">VS Code</a> for a text editor
         </li>
