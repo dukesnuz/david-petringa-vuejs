@@ -50,7 +50,7 @@ export default {
 
 <style scoped>
 .footer {
-  background-color: aliceblue;
+  background-color: rgb(240, 248, 255);
   padding-bottom: 200px;
 }
 #nav {

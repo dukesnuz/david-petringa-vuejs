@@ -83,9 +83,14 @@
 .about {
   margin-bottom: 500px;
   padding: 0 5% 0 5%;
+  font-size: 1.25em;
+}
+.header {
+  padding: 5px 5px 25px 5px;
 }
 section {
-  background: aliceblue;
+  background: rgb(240, 248, 255);
+  margin-bottom: 50px;
 }
 section h2,
 section h3 {
@@ -99,15 +104,19 @@ ul {
 }
 h2,
 h3 {
-  margin-top: 100px;
+  padding: 0 5px 0 0;
   margin-bottom: 0;
 }
-@media only screen and (min-width: 375px) {
-  ul {
-    width: 500px;
-  }
+
+@media only screen and (min-width: 320px) {
   .about {
-    padding: 0 25% 0 25%;
+    font-size: 1.5em;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .about {
+    margin: auto;
+    width: 500px;
     font-size: 1.5em;
   }
 }

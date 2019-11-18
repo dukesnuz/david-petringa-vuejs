@@ -193,6 +193,7 @@ ol {
 .content {
   width: 100%;
   margin: auto;
+  font-size: 1.25em;
 }
 code {
   background-color: #ccc;
@@ -204,6 +205,7 @@ code {
   }
   .content {
     width: 65%;
+    font-size: 1em;
   }
 }
 </style>
