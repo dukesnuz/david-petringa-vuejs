@@ -2,14 +2,27 @@
   <footer class="footer">
     <div id="nav">
       <ul>
-      <li><router-link to="/">Home</router-link></li>
-      <li><router-link to="/about">About</router-link></li>
-      <li><a v-bind:href ="''+url+''" target="blank">Say Hello</a></li>
-      <li>View the code on <a href="https://github.com/dukesnuz/david-petringa-vuejs" target="blank">Github</a></li>
+        <li>
+          <router-link to="/">Home</router-link>
+        </li>
+        <li>
+          <router-link to="/about">About</router-link>
+        </li>
+        <li>
+          <a v-bind:href="''+url+''" target="blank">Say Hello</a>
+        </li>
+        <li>
+          View the code on
+          <a
+            href="https://github.com/dukesnuz/david-petringa-vuejs"
+            target="blank"
+          >Github</a>
+        </li>
       </ul>
+      <p v-html="copy()" class="copy"></p>
     </div>
     <div class="column_2">
-       <Duke/>
+      <Duke />
     </div>
   </footer>
 </template>
@@ -19,12 +32,17 @@ import Duke from "./ads/DukeCannon";
 
 export default {
   name: "Footer",
-    components: {
+  components: {
     Duke
   },
   data() {
     return {
-     url: "http://www.dukesnuz.com/contact/dukesnuz/david/petringa/",
+      url: "http://www.dukesnuz.com/contact/dukesnuz/david/petringa/"
+    };
+  },
+  methods: {
+    copy() {
+      return `Copyright &copy; David Petringa ` + new Date().getFullYear();
     }
   }
 };
@@ -41,7 +59,7 @@ export default {
   text-align: left;
 }
 .column_2 {
-  float:left;
+  float: left;
 }
 #nav a {
   font-weight: bold;
@@ -54,5 +72,9 @@ export default {
   color: #fff;
   padding-right: 5px;
   text-decoration: none;
+}
+.copy {
+  font-size: .85em;
+  font-style: italic;
 }
 </style>
