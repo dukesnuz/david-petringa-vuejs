@@ -8,6 +8,9 @@
         <li>
           <router-link to="/about">About</router-link>
         </li>
+         <li>
+          <a href="https://david.dukesnuz.com/blog/home" target="blank">Blog</a>
+        </li>
         <li>
           <a v-bind:href="''+url+''" target="blank">Say Hello</a>
         </li>

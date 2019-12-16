@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+    <img alt="mountains with green trees" src="http://dukesnuz.com/images/926.jpg" />
     <MainContent />
   </div>
 </template>
@@ -19,6 +19,6 @@ export default {
 
 <style scoped>
 .home {
-   margin-bottom: 500px;
+  margin-bottom: 25px;
 }
 </style>

@@ -1,10 +1,20 @@
 <template>
   <div>
-    <h3>Something very cool and coded with Vue.js is coming soon !</h3>
-    <p>
-      While you are waiting check out the tutorial on how to
-      <a href="./#/blog/Vuejs-Upload-To-Digital-Ocean-With-Github">Deploy a Vue.js App to Digital Ocean Using Github</a>
-    </p>
+    <ul>
+      <li>
+        My
+        <a href="https://david.dukesnuz.com/blog/home" target="blank">Blog</a>
+      </li>
+      <li>
+        My
+        <a href="http://www.dukesnuz.com/" target="blank">Playground</a>
+      </li>
+      <li></li>
+      <li>
+        Check out
+        <a href="https://david.dukesnuz.com/" target="blank">My Laravel App</a>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -13,3 +23,8 @@ export default {
   name: "MainContent"
 };
 </script>
+<style scoped>
+ul {
+  margin-top: 25px;
+}
+</style>

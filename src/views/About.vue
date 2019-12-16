@@ -7,10 +7,10 @@
         proficient with Vue.js. Vue.js is a frontend web develpment framework. I discovered and started using Vue.js
         when I was learning the PHP Framework, Laravel. I coded
         <a
-          href="https://david.dukesnuz.com/links/get-list"
+          href="https://david.dukesnuz.com/"
           target="blank"
         >this</a>
-        using Laravel. Vue.js was not used.
+        using Laravel and Vue.js.
       </p>
     </section>
 
@@ -59,9 +59,9 @@
     </section>
 
     <section>
-      <h3>I am using the following technologies for this site.</h3>
+      <h3>I am using the following technologies for developing this site.</h3>
       <ul>
-        <li>Designed and coded using An Acer Laptop running Windows 7.</li>
+        <li>Designed and coded using An Acer Laptop running Windows.</li>
         <li>
           <a href="https://code.visualstudio.com/" target="blank">VS Code</a> for a text editor
         </li>
@@ -73,6 +73,12 @@
         </li>
         <li>
           <a href="https://m.do.co/c/3ec7cdf44173" target="blank">Digital Ocean</a> for hosting
+        </li>
+        <li>
+          <a href="https://cmder.net/" target="blank">Cmder</a> for working with the command line
+        </li>
+        <li>
+          <a href="https://vuejs.org/" target="blank">Vue.js</a> for the front end framework
         </li>
       </ul>
     </section>

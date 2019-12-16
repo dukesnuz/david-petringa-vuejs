@@ -20,6 +20,7 @@
     color: #fff;
     border: 4px solid #F8930D;
     width:325px;
+    text-align: center;
 }
 a {
   font-weight: bold;
