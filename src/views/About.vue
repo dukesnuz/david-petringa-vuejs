@@ -3,9 +3,9 @@
     <section class="header">
       <h2>Greetings</h2>
       <p>
-        This is a simple website made with Vue.js. My goal in developing this site is to practice and become more
-        proficient with Vue.js. Vue.js is a frontend web develpment framework. I discovered and started using Vue.js
-        when I was learning the PHP Framework, Laravel. I coded
+        This is a simple website made with <a href="https://vuejs.org/" target="blank">Vue.js</a>. My goal in developing
+        this web application is to showcase my skills with Vue.js. Vue.js is a frontend web develpment framework. 
+        I discovered and started using Vue.js when I was learning the PHP Framework, Laravel. I coded
         <a
           href="https://david.dukesnuz.com/"
           target="blank"

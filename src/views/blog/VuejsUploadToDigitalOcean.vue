@@ -12,7 +12,8 @@
       <a href="https://vuejs.org/v2/guide/installation.html" target="blank">Vue.js</a>
       app is connected to a github repository with a master branch
     </p>
-
+    
+    <h3>View more of my tutorials on my <a href="https://david.dukesnuz.com/blog/home" target="blank">blog</a></h3>
     <div class="list-content">
       <ol>
         <li>

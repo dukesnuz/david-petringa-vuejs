@@ -1,12 +1,12 @@
 <template>
   <header class="header">
     <h1>David Petringa</h1>
-     <h3>A Simple website developed with Vue.js</h3>
     <div id="nav">
       <router-link to="/">Home</router-link>|
       <router-link to="/about">About</router-link>|
       <router-link to="/blog/Vuejs-Upload-To-Digital-Ocean-With-Github">Tutorial</router-link>|
-      <a href="https://david.dukesnuz.com/blog/home" target="blank">Blog</a>
+      <a href="https://david.dukesnuz.com/blog/home" target="blank">Blog</a> |
+      <a href="http://www.dukesnuz.com/contact/dukesnuz/david/petringa/" target="blank">Say Hello</a>
     </div>
   </header>
 </template>
