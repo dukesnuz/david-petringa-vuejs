@@ -31,12 +31,12 @@
 </template>
 
 <script>
-import Duke from "./ads/DukeCannon";
+//import Duke from "./ads/DukeCannon";
 
 export default {
   name: "Footer",
   components: {
-    Duke
+   /* Duke */
   },
   data() {
     return {
