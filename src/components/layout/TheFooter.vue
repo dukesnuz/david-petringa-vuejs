@@ -5,7 +5,7 @@
         <li>
           <router-link to="/">Home</router-link>
         </li>
-        <li>
+        <!--<li>
           <router-link to="/about">About</router-link>
         </li>
          <li>
@@ -20,12 +20,12 @@
             href="https://github.com/dukesnuz/david-petringa-vuejs"
             target="blank"
           >Github</a>
-        </li>
+        </li>-->
       </ul>
       <p v-html="copy()" class="copy"></p>
     </div>
     <div class="column_2">
-      <Duke />
+      <!--<Duke />-->
     </div>
   </footer>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ul>
+    <!--<ul>
       <li>
         My
         <a href="https://david.dukesnuz.com/blog/home" target="blank">Blog</a>
@@ -14,7 +14,7 @@
         Check out
         <a href="https://david.dukesnuz.com/" target="blank">My Laravel App</a>
       </li>
-    </ul>
+    </ul>-->
   </div>
 </template>
 
